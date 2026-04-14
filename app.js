@@ -7,6 +7,13 @@ app.get("/", (req, res) => {
   res.status(200).send("Hello from Elevate Labs CI/CD Pipeline Project!");
 });
 
+app.get("/health", (req, res) => {
+  res.status(200).json({
+    status: "OK",
+    service: "elevate-labs-app"
+  });
+});
+
 if (require.main === module) {
   app.listen(PORT, () => {
     console.log(`App running on port ${PORT}`);
