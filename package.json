@@ -1,0 +1,34 @@
+{
+  "name": "elevate-labs-task-1-cicd-pipeline",
+  "version": "1.0.0",
+  "description": "CI/CD pipeline project using GitHub Actions, Node.js, and Docker",
+  "main": "app.js",
+  "scripts": {
+    "test": "jest",
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/A-Raheman/elevate-labs-task-1-cicd-pipeline.git"
+  },
+  "keywords": [
+    "ci-cd",
+    "github-actions",
+    "docker",
+    "nodejs",
+    "elevate-labs"
+  ],
+  "author": "Abdul Raheman",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/A-Raheman/elevate-labs-task-1-cicd-pipeline/issues"
+  },
+  "homepage": "https://github.com/A-Raheman/elevate-labs-task-1-cicd-pipeline#readme",
+  "dependencies": {
+    "express": "^4.21.2"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "supertest": "^7.1.1"
+  }
+}
